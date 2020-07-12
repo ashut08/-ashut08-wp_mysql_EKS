@@ -1,0 +1,12 @@
+--- 
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+metadata: 
+  name: mycluster
+  region: ap-south-1
+nodeGroups: 
+  - 
+    desiredCapacity: 3
+    instanceType: t2.micro
+    name: ng1
+
